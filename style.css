@@ -49,11 +49,19 @@ header {
 	/* padding: 0 20px; */
 }
 
-.busca input::placeholder {
+/* margin left value input */
+.busca input[type="text"] {
 	padding-left: 60px;
+}
+
+.busca input::placeholder {
 	font-size: 16px;
 	color: #ffffff;
 	opacity: 0.5;
+}
+
+.ionicon-fill-none{
+		fill: red!important;
 }
 
 .busca ion-icon {
